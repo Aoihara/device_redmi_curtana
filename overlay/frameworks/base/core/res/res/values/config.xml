@@ -986,4 +986,6 @@
         <item>9,1</item>
     </string-array>
 
+    <!-- Indicates that connected MAC randomization is supported on this device -->
+    <bool name="config_wifi_connected_mac_randomization_supported">true</bool>
 </resources>
