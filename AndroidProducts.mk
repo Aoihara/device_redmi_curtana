@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_curtana.mk
+    $(LOCAL_DIR)/du_curtana.mk
 
 COMMON_LUNCH_CHOICES := \
-    potato_curtana-user \
-    potato_curtana-userdebug \
-    potato_curtana-eng
+    du_curtana-user \
+    du_curtana-userdebug \
+    du_curtana-eng

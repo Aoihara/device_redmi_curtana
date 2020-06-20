@@ -11,14 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from curtana device
 $(call inherit-product, device/redmi/curtana/device.mk)
 
-# Inherit some common POSP stuff.
-$(call inherit-product, vendor/potato/config/common_full_phone.mk)
+# Inherit some common CorvusROM stuff.
+$(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 #Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := potato_curtana
+PRODUCT_NAME := du_curtana
 PRODUCT_DEVICE := curtana
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
