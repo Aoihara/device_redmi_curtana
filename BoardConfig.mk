@@ -141,15 +141,16 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USES_MKE2FS := true
 
 # Sepolicy
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR := $(DEVICE_PATH)/sepolicy/private
+include device/qcom/sepolicy-legacy-um/sepolicy.mk
+#BOARD_PLAT_PRIVATE_SEPOLICY_DIR := $(DEVICE_PATH)/sepolicy/private
 
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/qcom/sepolicy/generic/private \
-    device/qcom/sepolicy/qva/private
+#BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+ #   device/qcom/sepolicy/generic/private \
+  #  device/qcom/sepolicy/qva/private
 
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/qcom/sepolicy/generic/public \
-    device/qcom/sepolicy/qva/public
+#BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+ #   device/qcom/sepolicy/generic/public \
+  #  device/qcom/sepolicy/qva/public
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
