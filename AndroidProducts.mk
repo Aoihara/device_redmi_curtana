@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_curtana.mk
+    $(LOCAL_DIR)/potato_curtana.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_curtana-user \
-    aosp_curtana-userdebug \
-    aosp_curtana-eng
+    potato_curtana-user \
+    potato_curtana-userdebug \
+    potato_curtana-eng
